@@ -327,5 +327,12 @@ img {
 
 .newsletter {
   background: #f7f7f7;
-  padding: 60px;
+  padding: 60px calc((100% - 960px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info {
+  flex: 1 1 260px;
+  margin: 0 10px;
 }
